@@ -17,7 +17,7 @@ function Navbar() {
 
 	}
 
-	console.log(data);
+	
 	return (
 		
 		<div className= 'navbar' >

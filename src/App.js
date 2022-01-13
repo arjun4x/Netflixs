@@ -1,5 +1,5 @@
 import React from 'react';
-import {action,horror,comedy,original,romance} from './Urls/url';
+import {action,horror,comedy,romance} from './Urls/url';
 
 import './App.css';
 import Navbar from './Components/NavBar/Navbar';

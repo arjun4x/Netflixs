@@ -10,14 +10,8 @@ function RawPost(props) {
 	useEffect(() => {
 		
 		axios.get(props.url).then((response)=>{
-			console.log(response.data.results);
-	
 			setPoster(response.data.results);
-		})
-
-	console.log(id)
-		
-	}, [])
+		})}, [])
 	
 
 		const trailerHandler = (obj) =>{

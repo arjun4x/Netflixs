@@ -9,7 +9,7 @@ function Banner(props) {
 	const [id,setId] = useState([]);
 	useEffect(() => {
 		axios.get(`/trending/all/week?api_key=${apiKey}&language=en-US`).then((response)=>{
-			console.log(response.data.results['0']);
+		
 			setMovie(response.data.results[4]);
 				
 				})
