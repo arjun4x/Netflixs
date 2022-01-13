@@ -1,12 +1,14 @@
 
 .form{
-	margin-top: 4%;
-	margin-left: 60%;
-	background-color: black;
+	
+	padding:  4% 25% 5%;
+	background: rgba(0,0,0,0.5);
+	
 	background-size:cover;
 	color:white;
 	
 	width:100%;
+	height: 100%;
 	
 }
 .noform{
@@ -14,7 +16,8 @@
 	color:white;
 }
 .form-controls{
-	background-color: black;
-	background-size:cover;
+	
+
+	width:100%
 }
 
