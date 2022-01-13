@@ -1,0 +1,20 @@
+
+.form{
+	margin-top: 4%;
+	margin-left: 60%;
+	background-color: black;
+	background-size:cover;
+	color:white;
+	
+	width:100%;
+	
+}
+.noform{
+	display: none;
+	color:white;
+}
+.form-controls{
+	background-color: black;
+	background-size:cover;
+}
+
