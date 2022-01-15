@@ -14,9 +14,9 @@ function App() {
     <Banner />
    
     <RawPost url={action} title='Action' isSmall={false}/>
-    <RawPost url={comedy} title='Horror' isSmall={true}/>
-    <RawPost url={romance} title='Comedy' isSmall={true}/>
-    <RawPost url={horror} title='Romance' isSmall={true}/>
+    <RawPost url={comedy} title='Comedy' isSmall={true}/>
+    <RawPost url={romance} title='Romance' isSmall={true}/>
+    <RawPost url={horror} title='Horror' isSmall={true}/>
    
     </div>
   
