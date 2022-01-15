@@ -1,14 +1,14 @@
 .row{
-	margin-left: 1vh;
+	margin-left: 1.5vw;
    color:#fff;
-   font-size: 2vw;
+   font-size: 175%;
    margin-top: 0;
 
 }
 .posters
 {
 	display:flex;
-	padding: 1vh;
+	padding: 1vw;
 	overflow-x: scroll;
 	overflow-y: hidden;
 }

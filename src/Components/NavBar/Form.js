@@ -1,45 +1,27 @@
-import React,{useState} from 'react'
+import React from 'react'
+import './Form.css';
 
-const Form = (props) => {
+function Input(props) {
+  
+	return (
+		<div className={props.data ? "form":"noform"}>
+			<form className='form-controls'>
+<label>Email address</label>
 
-const [enterNames,setEnterNames] =useState('');
-const [enterAges,setEnterAges] = useState('');
-
-const nameHandler = (e) =>{
-    setEnterNames(e.target.value);
-
-}
-const ageHandler = (e) =>{
-    setEnterAges(e.target.value);
-}
-const formData ={
-    name: enterNames,
-    age:enterAges
-}
-const submitHandler = (event) =>{
-    event.preventDefault();
-    props.onInputData(formData);
-    
-
-}
-
-
-    return (
-        <div>
- <form >
-  <div >
-    <input type="name" onChange={nameHandler} placeholder="Name"/>
-    </div>
-  <br/>
-  <div >
-    <input type="age" onChange={ageHandler}  placeholder="Age"/>
-  </div>
-  <button type="submit" onClick={submitHandler}>Submit</button>
+<br/>
+    <input type="email" className="input"  aria-describedby="emailHelp" placeholder="Enter email"/> 
+    <br/>
+    <label>Password</label>
+    <br/>
+    <input type="password" className="input"  placeholder="Password"/>
+ <br/>
+    <input type="checkbox" className="form-check" />
+<label className="input" >Check me out</label>
+    <br/>
+  <button type="submit" onClick={props.onLogin} className="btns">Submit</button>
 </form>
-        
-            
-        </div>
-    )
+		</div>
+	)
 }
 
-export default Form
+export default Input
