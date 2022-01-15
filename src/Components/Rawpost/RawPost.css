@@ -1,13 +1,14 @@
 .row{
-	margin-left: 5vh;
+	margin-left: 1vh;
    color:#fff;
    font-size: 2vw;
+   margin-top: 1%;
 
 }
 .posters
 {
 	display:flex;
-	padding: 3vh;
+	padding: 1vh;
 	overflow-x: scroll;
 	overflow-y: hidden;
 }
@@ -19,13 +20,15 @@
 {
 	
 	cursor: pointer;
-	max-width: 40%;
+	max-width: 60vh;
+	padding-right: 2vh;
 	
-	margin-right: 2vh;
+	
 }
 .smallPoster{
-	max-width:35% ;
-	margin-right: 2vh;
+	max-width:40vh ;
+	padding-right: 2vh;
+	
 	cursor: pointer;
 }
 .poster:hover{
