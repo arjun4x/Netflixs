@@ -4,7 +4,7 @@
 	
 	background-repeat: no-repeat;
 	
-	background-size: 100% 100vh;
+	background-size: 100% 95vh;
 	color:white;
 	
 
@@ -17,7 +17,7 @@
 	padding-left: 2vw;
 }
 .title{
-	font-size: 4vw;
+	font-size: 5vw;
 	font-weight: 200%;
 	padding-bottom: 0.3rem;
 }

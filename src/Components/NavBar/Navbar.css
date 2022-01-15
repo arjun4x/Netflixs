@@ -18,12 +18,13 @@
 }
 .avatar{
 	position:fixed;
-	right:2vh;
-	width: 5vh;
+	right:1vh;
+	width: 4vh;
 }
 .btn{
 	position:fixed;
-	right:6vw;
+	
+	right: 5vh;
 	
 	color:white;
 	outline: none;
