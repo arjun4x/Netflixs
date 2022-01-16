@@ -1,8 +1,8 @@
 .row{
 	margin-left: 1.5vw;
    color:#fff;
-   font-size: 3vw;
-   margin-top: 0;
+   font-size: 2.7vw;
+   margin-bottom: 1vh;
 
 }
 .posters
@@ -20,13 +20,13 @@
 {
 	
 	cursor: pointer;
-	max-width: 60vw;
+	max-width: 50vw;
 	padding-right: 2vh;
 	
 	
 }
 .smallPoster{
-	max-width:40vw ;
+	max-width:30vw ;
 	padding-right: 2vh;
 	
 	cursor: pointer;
