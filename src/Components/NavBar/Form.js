@@ -15,7 +15,7 @@ function Input(props) {
     <br/>
     <input type="password" className="input"  placeholder="Password"/>
  <br/>
-    <input type="checkbox" className="form-check" />
+    <input type="checkbox" className="input" />
 <label className="input" >Check me out</label>
     <br/>
   <button type="submit" onClick={props.onLogin} className="btns">Submit</button>
